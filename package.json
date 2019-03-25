@@ -1,0 +1,30 @@
+{
+  "name": "wdio-cucumber-retry-failed-scenarios",
+  "version": "0.0.1",
+  "description": "Create a list of failed scenarios for re-execution in cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rerun",
+    "re-execute",
+    "cucumber",
+    "flake",
+    "execution",
+    "failed",
+    "scenario"
+  ],
+  "author": "Manish Kumar Singh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manish-kumarsingh/wdio-cucumber-retry-failed-scenarios"
+  },
+  "dependencies": {
+    "walk-sync": "0.3.2"
+  },
+  "devDependencies": {
+    
+  }
+}
