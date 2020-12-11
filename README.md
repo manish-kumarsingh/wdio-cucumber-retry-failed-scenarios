@@ -38,7 +38,7 @@ retryFailedScenarios.identifyFailedScenarios(input);
 
 | Parameter                        | Type   | Details                                                                                         |
 |----------------------------------|--------|-------------------------------------------------------------------------------------------------|
-| executionResultsFolder           | string | Path to folder where the execution results are generated in JSON format                                                 |
+| executionResultsFolder           | string | Path to folder where the execution results are generated in JSON format. To generate this JSON, use https://www.npmjs.com/package/cucumber-html-reporter                                                 |
 | failureThreshold                 | int | Threshold percentage of the failures beyond which re-execution will not be triggered and hence failed scenario feature file will not be generated |
 | configDetails          | JSON   | wdio configuration file details in JSON format                 |
 | tag (optional)         | string | Tag expression to be applied at feature level of the failed feature file                 |
@@ -77,6 +77,9 @@ retryFailedScenarios.updateResultFiles(input)
 ```
 
 **Please note that before initiating the execution, JSON results folder should be blank so that no previous execution results are used in the entire process.**
+
+
+**TIP: gulp can be used to combine all these steps as a sequence of tasks which could then be executed against one single gulp command**
 
 
 
