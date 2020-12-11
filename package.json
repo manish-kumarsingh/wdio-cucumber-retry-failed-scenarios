@@ -1,7 +1,7 @@
 {
   "name": "wdio-cucumber-retry-failed-scenarios",
-  "version": "0.0.1",
-  "description": "Create a list of failed scenarios for re-execution in cucumber",
+  "version": "0.0.2",
+  "description": "Create a list of failed scenarios for re-execution in cucumber. After re-execution of failed scenarios, merge the re-execution results to the original execution results",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,7 +24,5 @@
   "dependencies": {
     "walk-sync": "0.3.2"
   },
-  "devDependencies": {
-    
-  }
+  "devDependencies": {}
 }
